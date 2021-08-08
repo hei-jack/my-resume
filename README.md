@@ -1,24 +1,15 @@
 # my-resume
-<<<<<<< HEAD
+一个基于Vue.js的个人简历模板，初步实现导出pdf、打印功能。
 
-## Project setup
-```
-npm install
-```
+## 安装依赖
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+`npm install`
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## 项目运行
 
-### Lints and fixes files
-```
-npm run lint
-```
+`npm run serve`
 
-### Customize configuration
+## 项目打包
+
+`npm run build`
+
