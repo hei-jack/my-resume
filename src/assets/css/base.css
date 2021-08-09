@@ -1,0 +1,277 @@
+.section-item {
+  margin: 24px 0;
+}
+
+section.experiences .section-header {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+section.experiences .section-title {
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+section.experiences .section-headerline {
+  flex: 1;
+  height: 1px;
+  background-color: #dee2e6;
+}
+
+section.experiences .section-content .section-subitem-header {
+  display: flex;
+  align-items: center;
+}
+section.experiences .section-content .section-subitem-header .company-name {
+  flex: 1;
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 2em;
+  color: #212529;
+}
+
+section.experiences .section-content .sub-text {
+  font-size: 1em;
+  color: #3d4349;
+}
+
+section.experiences .section-content .project-section {
+  margin: 15px 0;
+}
+section.experiences .section-content .project-section .project-name {
+  font-size: 1em;
+  color: #495057;
+}
+section.experiences .section-content .project-section .project-detail {
+  margin: 10px 0 0 18px;
+  font-size: 14px;
+  color: #3d4349;
+}
+section.experiences .section-content .project-section .project-detail .detail {
+  line-height: 2em;
+}
+
+section.personal-projects .section-header {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+section.personal-projects .section-title {
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+section.personal-projects .section-headerline {
+  flex: 1;
+  height: 1px;
+  background-color: #dee2e6;
+}
+
+section.personal-projects .section-content .project-section {
+  margin: 15px 0;
+}
+section.personal-projects .section-content .project-section .project-name {
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #666;
+}
+section.personal-projects .section-content .project-section .project-desc {
+  margin: 5px 0 10px;
+  line-height: 1.5em;
+  font-size: 15px;
+  color: #424141;
+}
+section.personal-projects .section-content .project-section .project-detail {
+  margin: -5px 0 5px 18px;
+  font-size: 14px;
+  color: #3d4349;
+}
+section.personal-projects
+  .section-content
+  .project-section
+  .project-detail
+  .detail {
+  line-height: 2em;
+}
+section.personal-projects .section-content .project-section .tech {
+  min-width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  padding: 2px 6px;
+  margin-right: 10px;
+  line-height: 16px;
+  font-size: 12px;
+  background-color: #495057;
+  color: #fff;
+}
+
+section.education .section-header {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+section.education .section-title {
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+section.education .section-headerline {
+  flex: 1;
+  height: 1px;
+  background-color: #dee2e6;
+}
+
+section.education .section-subitem-header {
+  display: flex;
+  align-items: center;
+}
+
+section.education .school-name {
+  flex: 1;
+  font-weight: 700;
+  font-size: 1.2em;
+  line-height: 2em;
+  color: #212529;
+}
+
+section.education .range.sub-text {
+  font-size: 1em;
+  color: #3d4349;
+}
+
+section.education .section-subitem-subheader.sub-text {
+  font-size: 1em;
+  color: #3d4349;
+}
+
+section.others .section-header {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+section.others .section-title {
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+section.others .section-headerline {
+  flex: 1;
+  height: 1px;
+  background-color: #dee2e6;
+}
+
+section.others ul.supplements {
+  margin: 10px 0 0 18px;
+  font-size: 14px;
+  color: #3d4349;
+}
+
+section.others li.supplement,
+section.others li.sociallink {
+  line-height: 2em;
+}
+
+section.others li.sociallink .fas,
+section.others li.sociallink .fab {
+  margin-right: 5px;
+}
+
+section.others .sociallink-text {
+  margin-right: 8px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Open Sans, -apple-system, BlinkMacSystemFont, PingFang SC, PingFangSC, Helvetica Neue, "微软雅黑", "Microsoft YaHei", sans-serif;
+  background: #f7f8f9;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  margin: 50px auto;
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+@media print {
+
+  html,
+  body {
+    background-color: #ffffff;
+  }
+}
+
+a {
+  color: teal;
+}
+
+.user-select{
+  user-select: none;
+}
+
+
+/*响应式处理*/
+@media (min-width: 1024px) {
+  .container {
+    width: 800px;
+    padding: 30px 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    width: 750px;
+    padding: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    margin: 0;
+    padding: 25px;
+    box-shadow: 0 0 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    margin: 0;
+    padding: 15px;
+    box-shadow: 0 0 0;
+  }
+}
+
+@media print {
+  @page {
+    /* A4大小 纵向 */
+    size: A4 portrait;
+  }
+  .container {
+    margin: 0;
+    box-shadow: 0 0 0;
+  }
+  .container div {
+    break-after: always;
+  }
+}
+
+::-webkit-scrollbar,
+:hover::-webkit-scrollbar {
+  background: transparent;
+  width: 0;
+}
